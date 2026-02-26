@@ -1,9 +1,115 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh">
 <head>
- <title>My Personal Website</title>
+    <meta charset="UTF-8">
+    <title>你的姓名 | Academic Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+            line-height: 1.6;
+            color: #222;
+            background-color: #fafafa;
+        }
+        h1, h2 {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 6px;
+        }
+        a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .profile img {
+            width: 140px;
+            border-radius: 8px;
+        }
+        .section {
+            margin-top: 40px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        footer {
+            margin-top: 60px;
+            font-size: 0.9em;
+            color: #666;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
- <h1>Welcome to My GitHub Page!</h1>
+
+    <h1>你的姓名</h1>
+    <p><strong>Ph.D. Candidate / Researcher</strong></p>
+    <p>
+        School of XXX<br>
+        XXX University<br>
+        Email: yourname@xxx.edu<br>
+        Google Scholar | GitHub | CV (PDF)
+    </p>
+
+    <div class="section profile">
+        <img src="profile.jpg" alt="Profile Photo">
+        <p>
+            这里写一段简短的个人介绍。可以包括研究方向、当前课题、
+            研究兴趣（如：Face Anti-Spoofing, Anomaly Detection, Vision-Language Models 等）。
+            建议控制在 4–6 行。
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Research Interests</h2>
+        <ul>
+            <li>Face Anti-Spoofing & Deepfake Detection</li>
+            <li>Anomaly Detection with Deep Learning</li>
+            <li>Vision-Language Models (CLIP, ViT)</li>
+            <li>Security & Robustness in Computer Vision</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Publications</h2>
+        <ul>
+            <li>
+                <strong>Paper Title</strong><br>
+                Author1, Author2, <u>Your Name</u><br>
+                Conference/Journal, Year.
+                [PDF] [Code]
+            </li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <strong>Project Name</strong> — 简要介绍项目内容与贡献。
+            </li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Academic Services</h2>
+        <ul>
+            <li>Reviewer for XXX Conference</li>
+            <li>Teaching Assistant: XXX Course</li>
+        </ul>
+    </div>
+
+    <footer>
+        © 2026 你的姓名 · Last updated: Feb 2026
+    </footer>
+
 </body>
 </html>
